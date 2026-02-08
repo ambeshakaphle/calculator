@@ -1,3 +1,4 @@
+import 'package:calculator/screens/calculator_screen.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -7,7 +8,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SimpleInterest(),
+      home: CalculatorScreen(),
     );
   }
 }
